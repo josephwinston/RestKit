@@ -101,5 +101,6 @@ EOS
   s.subspec 'Support' do |ss|
     ss.source_files   = 'Code/RestKit.h', 'Code/Support.h', 'Code/Support', 'Vendor/LibComponentLogging/Core', 'Vendor/LibComponentLogging/NSLog'
     ss.dependency 'TransitionKit', '2.1.0'
+    ss.dependency 'CMDQueryStringSerialization', '~> 0.2.0'
   end
 end

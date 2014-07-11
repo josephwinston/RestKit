@@ -1,6 +1,8 @@
 inhibit_all_warnings!
 
 def import_pods
+  pod 'CMDQueryStringSerialization', git: 'https://github.com/segiddins/CMDQueryStringSerialization', branch: 'legacy-sdks'
+ 
   pod 'RestKit', :path => '.'
   pod 'RestKit/Testing', :path => '.'
   pod 'RestKit/Search', :path => '.'
@@ -9,7 +11,7 @@ def import_pods
   pod 'OCMock', '2.2.1'
   pod 'OCHamcrest', '3.0.1'
   pod 'Expecta', '0.3.1'
-  
+
   # Used for testing Value Transformer integration
   pod 'RKCLLocationValueTransformer', '~> 1.1.0'
 end

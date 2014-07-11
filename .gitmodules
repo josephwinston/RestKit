@@ -13,3 +13,6 @@
 [submodule "Vendor/SOCKit"]
 	path = Vendor/SOCKit
 	url = https://github.com/NimbusKit/sockit.git
+[submodule "Vendor/CMDQueryStringSerialization"]
+	path = Vendor/CMDQueryStringSerialization
+	url = https://github.com/segiddins/CMDQueryStringSerialization.git

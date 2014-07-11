@@ -19,6 +19,7 @@
 //
 
 #import "RKURLEncodedSerialization.h"
+#import "CMDQueryStringSerialization.h"
 
 @implementation RKURLEncodedSerialization
 
@@ -38,38 +39,12 @@
 
 NSDictionary *RKDictionaryFromURLEncodedStringWithEncoding(NSString *URLEncodedString, NSStringEncoding encoding)
 {
-    NSMutableDictionary *queryComponents = [NSMutableDictionary dictionary];
-    for (NSString *keyValuePairString in [URLEncodedString componentsSeparatedByString:@"&"]) {
-        NSArray *keyValuePairArray = [keyValuePairString componentsSeparatedByString:@"="];
-        if ([keyValuePairArray count] < 2) continue; // Verify that there is at least one key, and at least one value.  Ignore extra = signs
-        NSString *key = [[keyValuePairArray objectAtIndex:0] stringByReplacingPercentEscapesUsingEncoding:encoding];
-        NSString *value = [[keyValuePairArray objectAtIndex:1] stringByReplacingPercentEscapesUsingEncoding:encoding];
-        
-        // URL spec says that multiple values are allowed per key
-        id results = [queryComponents objectForKey:key];
-        if (results) {
-            if ([results isKindOfClass:[NSMutableArray class]]) {
-                [(NSMutableArray *)results addObject:value];
-            } else {
-                // On second occurrence of the key, convert into an array
-                NSMutableArray *values = [NSMutableArray arrayWithObjects:results, value, nil];
-                [queryComponents setObject:values forKey:key];
-            }
-        } else {
-            [queryComponents setObject:value forKey:key];
-        }
-    }
-    return queryComponents;
+    return [CMDQueryStringSerialization dictionaryWithQueryString:URLEncodedString];
 }
 
-extern NSString *AFQueryStringFromParametersWithEncoding(NSDictionary *parameters, NSStringEncoding stringEncoding);
 NSString *RKURLEncodedStringFromDictionaryWithEncoding(NSDictionary *dictionary, NSStringEncoding encoding)
 {
-#if __has_include("AFNetworking.h")
-    return AFQueryStringFromParametersWithEncoding(dictionary, encoding);
-#else
-    return nil;
-#endif
+    return [CMDQueryStringSerialization queryStringWithDictionary:dictionary];
 }
 
 // This replicates `AFPercentEscapedQueryStringPairMemberFromStringWithEncoding`. Should send PR exposing non-static version

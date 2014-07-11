@@ -601,6 +601,44 @@
 		7F9CBC6174004E31AEC35813 /* libPods-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86EC453810D648768BF62304 /* libPods-osx.a */; };
 		BE05BDD11782109F00F7C9C9 /* RKRouteTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BE05BDCF1782109F00F7C9C9 /* RKRouteTest.m */; };
 		BE05BDD2178214AA00F7C9C9 /* RKRouteTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BE05BDCF1782109F00F7C9C9 /* RKRouteTest.m */; };
+		C0AFB034196F8D1500721DAB /* CMDQueryStringArrayTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB021196F8D1500721DAB /* CMDQueryStringArrayTransformer.h */; };
+		C0AFB035196F8D1500721DAB /* CMDQueryStringArrayTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB021196F8D1500721DAB /* CMDQueryStringArrayTransformer.h */; };
+		C0AFB036196F8D1500721DAB /* CMDQueryStringArrayTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB022196F8D1500721DAB /* CMDQueryStringArrayTransformer.m */; };
+		C0AFB037196F8D1500721DAB /* CMDQueryStringArrayTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB022196F8D1500721DAB /* CMDQueryStringArrayTransformer.m */; };
+		C0AFB038196F8D1500721DAB /* CMDQueryStringDateTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB023196F8D1500721DAB /* CMDQueryStringDateTransformer.h */; };
+		C0AFB039196F8D1500721DAB /* CMDQueryStringDateTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB023196F8D1500721DAB /* CMDQueryStringDateTransformer.h */; };
+		C0AFB03A196F8D1500721DAB /* CMDQueryStringDateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB024196F8D1500721DAB /* CMDQueryStringDateTransformer.m */; };
+		C0AFB03B196F8D1500721DAB /* CMDQueryStringDateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB024196F8D1500721DAB /* CMDQueryStringDateTransformer.m */; };
+		C0AFB03C196F8D1500721DAB /* CMDQueryStringNumberTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB025196F8D1500721DAB /* CMDQueryStringNumberTransformer.h */; };
+		C0AFB03D196F8D1500721DAB /* CMDQueryStringNumberTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB025196F8D1500721DAB /* CMDQueryStringNumberTransformer.h */; };
+		C0AFB03E196F8D1500721DAB /* CMDQueryStringNumberTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB026196F8D1500721DAB /* CMDQueryStringNumberTransformer.m */; };
+		C0AFB03F196F8D1500721DAB /* CMDQueryStringNumberTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB026196F8D1500721DAB /* CMDQueryStringNumberTransformer.m */; };
+		C0AFB040196F8D1500721DAB /* CMDQueryStringReader.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB027196F8D1500721DAB /* CMDQueryStringReader.h */; };
+		C0AFB041196F8D1500721DAB /* CMDQueryStringReader.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB027196F8D1500721DAB /* CMDQueryStringReader.h */; };
+		C0AFB042196F8D1500721DAB /* CMDQueryStringReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB028196F8D1500721DAB /* CMDQueryStringReader.m */; };
+		C0AFB043196F8D1500721DAB /* CMDQueryStringReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB028196F8D1500721DAB /* CMDQueryStringReader.m */; };
+		C0AFB044196F8D1500721DAB /* CMDQueryStringSerialization-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB029196F8D1500721DAB /* CMDQueryStringSerialization-Prefix.pch */; };
+		C0AFB045196F8D1500721DAB /* CMDQueryStringSerialization-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB029196F8D1500721DAB /* CMDQueryStringSerialization-Prefix.pch */; };
+		C0AFB046196F8D1500721DAB /* CMDQueryStringSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB02A196F8D1500721DAB /* CMDQueryStringSerialization.h */; };
+		C0AFB047196F8D1500721DAB /* CMDQueryStringSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB02A196F8D1500721DAB /* CMDQueryStringSerialization.h */; };
+		C0AFB048196F8D1500721DAB /* CMDQueryStringSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB02B196F8D1500721DAB /* CMDQueryStringSerialization.m */; };
+		C0AFB049196F8D1500721DAB /* CMDQueryStringSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB02B196F8D1500721DAB /* CMDQueryStringSerialization.m */; };
+		C0AFB04A196F8D1500721DAB /* CMDQueryStringStringTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB02C196F8D1500721DAB /* CMDQueryStringStringTransformer.h */; };
+		C0AFB04B196F8D1500721DAB /* CMDQueryStringStringTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB02C196F8D1500721DAB /* CMDQueryStringStringTransformer.h */; };
+		C0AFB04C196F8D1500721DAB /* CMDQueryStringStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB02D196F8D1500721DAB /* CMDQueryStringStringTransformer.m */; };
+		C0AFB04D196F8D1500721DAB /* CMDQueryStringStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB02D196F8D1500721DAB /* CMDQueryStringStringTransformer.m */; };
+		C0AFB04E196F8D1500721DAB /* CMDQueryStringValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB02E196F8D1500721DAB /* CMDQueryStringValueTransformer.h */; };
+		C0AFB04F196F8D1500721DAB /* CMDQueryStringValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB02E196F8D1500721DAB /* CMDQueryStringValueTransformer.h */; };
+		C0AFB050196F8D1500721DAB /* CMDQueryStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB02F196F8D1500721DAB /* CMDQueryStringValueTransformer.m */; };
+		C0AFB051196F8D1500721DAB /* CMDQueryStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB02F196F8D1500721DAB /* CMDQueryStringValueTransformer.m */; };
+		C0AFB052196F8D1500721DAB /* CMDQueryStringWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB030196F8D1500721DAB /* CMDQueryStringWriter.h */; };
+		C0AFB053196F8D1500721DAB /* CMDQueryStringWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB030196F8D1500721DAB /* CMDQueryStringWriter.h */; };
+		C0AFB054196F8D1500721DAB /* CMDQueryStringWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB031196F8D1500721DAB /* CMDQueryStringWriter.m */; };
+		C0AFB055196F8D1500721DAB /* CMDQueryStringWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB031196F8D1500721DAB /* CMDQueryStringWriter.m */; };
+		C0AFB056196F8D1500721DAB /* NSString+CMDQueryStringSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB032196F8D1500721DAB /* NSString+CMDQueryStringSerialization.h */; };
+		C0AFB057196F8D1500721DAB /* NSString+CMDQueryStringSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AFB032196F8D1500721DAB /* NSString+CMDQueryStringSerialization.h */; };
+		C0AFB058196F8D1500721DAB /* NSString+CMDQueryStringSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB033196F8D1500721DAB /* NSString+CMDQueryStringSerialization.m */; };
+		C0AFB059196F8D1500721DAB /* NSString+CMDQueryStringSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB033196F8D1500721DAB /* NSString+CMDQueryStringSerialization.m */; };
 		C0F11CE3190883380054AEA0 /* RKPathMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F11CE1190883380054AEA0 /* RKPathMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0F11CE4190883380054AEA0 /* RKPathMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F11CE2190883380054AEA0 /* RKPathMatcher.m */; };
 		C0F11CE5190883460054AEA0 /* RKPathMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F11CE1190883380054AEA0 /* RKPathMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -985,6 +1023,25 @@
 		86EC453810D648768BF62304 /* libPods-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2DFE1E847347368405F3B5 /* Pods-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.xcconfig"; path = "Pods/Pods-ios.xcconfig"; sourceTree = SOURCE_ROOT; };
 		BE05BDCF1782109F00F7C9C9 /* RKRouteTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKRouteTest.m; sourceTree = "<group>"; };
+		C0AFB021196F8D1500721DAB /* CMDQueryStringArrayTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDQueryStringArrayTransformer.h; sourceTree = "<group>"; };
+		C0AFB022196F8D1500721DAB /* CMDQueryStringArrayTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDQueryStringArrayTransformer.m; sourceTree = "<group>"; };
+		C0AFB023196F8D1500721DAB /* CMDQueryStringDateTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDQueryStringDateTransformer.h; sourceTree = "<group>"; };
+		C0AFB024196F8D1500721DAB /* CMDQueryStringDateTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDQueryStringDateTransformer.m; sourceTree = "<group>"; };
+		C0AFB025196F8D1500721DAB /* CMDQueryStringNumberTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDQueryStringNumberTransformer.h; sourceTree = "<group>"; };
+		C0AFB026196F8D1500721DAB /* CMDQueryStringNumberTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDQueryStringNumberTransformer.m; sourceTree = "<group>"; };
+		C0AFB027196F8D1500721DAB /* CMDQueryStringReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDQueryStringReader.h; sourceTree = "<group>"; };
+		C0AFB028196F8D1500721DAB /* CMDQueryStringReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDQueryStringReader.m; sourceTree = "<group>"; };
+		C0AFB029196F8D1500721DAB /* CMDQueryStringSerialization-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMDQueryStringSerialization-Prefix.pch"; sourceTree = "<group>"; };
+		C0AFB02A196F8D1500721DAB /* CMDQueryStringSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDQueryStringSerialization.h; sourceTree = "<group>"; };
+		C0AFB02B196F8D1500721DAB /* CMDQueryStringSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDQueryStringSerialization.m; sourceTree = "<group>"; };
+		C0AFB02C196F8D1500721DAB /* CMDQueryStringStringTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDQueryStringStringTransformer.h; sourceTree = "<group>"; };
+		C0AFB02D196F8D1500721DAB /* CMDQueryStringStringTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDQueryStringStringTransformer.m; sourceTree = "<group>"; };
+		C0AFB02E196F8D1500721DAB /* CMDQueryStringValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDQueryStringValueTransformer.h; sourceTree = "<group>"; };
+		C0AFB02F196F8D1500721DAB /* CMDQueryStringValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDQueryStringValueTransformer.m; sourceTree = "<group>"; };
+		C0AFB030196F8D1500721DAB /* CMDQueryStringWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDQueryStringWriter.h; sourceTree = "<group>"; };
+		C0AFB031196F8D1500721DAB /* CMDQueryStringWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDQueryStringWriter.m; sourceTree = "<group>"; };
+		C0AFB032196F8D1500721DAB /* NSString+CMDQueryStringSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CMDQueryStringSerialization.h"; sourceTree = "<group>"; };
+		C0AFB033196F8D1500721DAB /* NSString+CMDQueryStringSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CMDQueryStringSerialization.m"; sourceTree = "<group>"; };
 		C0F11CE1190883380054AEA0 /* RKPathMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKPathMatcher.h; sourceTree = "<group>"; };
 		C0F11CE2190883380054AEA0 /* RKPathMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKPathMatcher.m; sourceTree = "<group>"; };
 		C0F11CE71908C7E60054AEA0 /* RKCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCoreData.h; sourceTree = "<group>"; };
@@ -1280,6 +1337,7 @@
 				25BCB31715ED57D500EE84DD /* AFNetworking */,
 				25160EA01456532C0060A5C5 /* LibComponentLogging */,
 				25160EB71456532C0060A5C5 /* SOCKit */,
+				C0AFB020196F8D1500721DAB /* CMDQueryStringSerialization */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -1692,6 +1750,33 @@
 			path = PLISTs;
 			sourceTree = "<group>";
 		};
+		C0AFB020196F8D1500721DAB /* CMDQueryStringSerialization */ = {
+			isa = PBXGroup;
+			children = (
+				C0AFB021196F8D1500721DAB /* CMDQueryStringArrayTransformer.h */,
+				C0AFB022196F8D1500721DAB /* CMDQueryStringArrayTransformer.m */,
+				C0AFB023196F8D1500721DAB /* CMDQueryStringDateTransformer.h */,
+				C0AFB024196F8D1500721DAB /* CMDQueryStringDateTransformer.m */,
+				C0AFB025196F8D1500721DAB /* CMDQueryStringNumberTransformer.h */,
+				C0AFB026196F8D1500721DAB /* CMDQueryStringNumberTransformer.m */,
+				C0AFB027196F8D1500721DAB /* CMDQueryStringReader.h */,
+				C0AFB028196F8D1500721DAB /* CMDQueryStringReader.m */,
+				C0AFB029196F8D1500721DAB /* CMDQueryStringSerialization-Prefix.pch */,
+				C0AFB02A196F8D1500721DAB /* CMDQueryStringSerialization.h */,
+				C0AFB02B196F8D1500721DAB /* CMDQueryStringSerialization.m */,
+				C0AFB02C196F8D1500721DAB /* CMDQueryStringStringTransformer.h */,
+				C0AFB02D196F8D1500721DAB /* CMDQueryStringStringTransformer.m */,
+				C0AFB02E196F8D1500721DAB /* CMDQueryStringValueTransformer.h */,
+				C0AFB02F196F8D1500721DAB /* CMDQueryStringValueTransformer.m */,
+				C0AFB030196F8D1500721DAB /* CMDQueryStringWriter.h */,
+				C0AFB031196F8D1500721DAB /* CMDQueryStringWriter.m */,
+				C0AFB032196F8D1500721DAB /* NSString+CMDQueryStringSerialization.h */,
+				C0AFB033196F8D1500721DAB /* NSString+CMDQueryStringSerialization.m */,
+			);
+			name = CMDQueryStringSerialization;
+			path = CMDQueryStringSerialization/CMDQueryStringSerialization;
+			sourceTree = "<group>";
+		};
 		E4081DFC15FB89DF00364948 /* ManagedObjectCaching */ = {
 			isa = PBXGroup;
 			children = (
@@ -1778,8 +1863,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				25160DDB145650490060A5C5 /* RKEntityMapping.h in Headers */,
+				C0AFB040196F8D1500721DAB /* CMDQueryStringReader.h in Headers */,
 				25160DDF145650490060A5C5 /* RKManagedObjectImporter.h in Headers */,
+				C0AFB044196F8D1500721DAB /* CMDQueryStringSerialization-Prefix.pch in Headers */,
 				25160DE1145650490060A5C5 /* RKManagedObjectStore.h in Headers */,
+				C0AFB038196F8D1500721DAB /* CMDQueryStringDateTransformer.h in Headers */,
+				C0AFB04E196F8D1500721DAB /* CMDQueryStringValueTransformer.h in Headers */,
 				25160DE5145650490060A5C5 /* RKPropertyInspector+CoreData.h in Headers */,
 				25160E09145650490060A5C5 /* RKDynamicMapping.h in Headers */,
 				25160E0B145650490060A5C5 /* RKErrorMessage.h in Headers */,
@@ -1794,6 +1883,7 @@
 				25160E23145650490060A5C5 /* RKPropertyInspector.h in Headers */,
 				25160E25145650490060A5C5 /* RKRelationshipMapping.h in Headers */,
 				25160E31145650490060A5C5 /* lcl_config_components_RK.h in Headers */,
+				C0AFB046196F8D1500721DAB /* CMDQueryStringSerialization.h in Headers */,
 				25160E32145650490060A5C5 /* lcl_config_extensions_RK.h in Headers */,
 				25160E33145650490060A5C5 /* lcl_config_logger_RK.h in Headers */,
 				25160E44145650490060A5C5 /* RestKit-Prefix.pch in Headers */,
@@ -1827,20 +1917,24 @@
 				258EA4A815A38BC0007E07A6 /* RKObjectMappingOperationDataSource.h in Headers */,
 				258EA4AE15A38E7E007E07A6 /* RKMappingOperationDataSource.h in Headers */,
 				258EA4B215A39090007E07A6 /* RKManagedObjectMappingOperationDataSource.h in Headers */,
+				C0AFB034196F8D1500721DAB /* CMDQueryStringArrayTransformer.h in Headers */,
 				2597F99C15AF6DC400E547D7 /* RKRelationshipConnectionOperation.h in Headers */,
 				25AFF8F115B4CF1F0051877F /* RKMappingErrors.h in Headers */,
 				5CCC295615B7124A0045F0F5 /* RKMacros.h in Headers */,
 				25104F1F15C30CD900829135 /* RKSearchWord.h in Headers */,
+				C0AFB03C196F8D1500721DAB /* CMDQueryStringNumberTransformer.h in Headers */,
 				25104F2915C30D1700829135 /* RKManagedObjectStore+RKSearchAdditions.h in Headers */,
 				25104F2F15C30E7400829135 /* RKSearchIndexer.h in Headers */,
 				25104F3515C30EF500829135 /* RKSearchPredicate.h in Headers */,
 				25104F3B15C30F2100829135 /* RKSearchWordEntity.h in Headers */,
 				25F53AE215E7B612008B54E6 /* RKHTTPUtilities.h in Headers */,
 				2598888D15EC169E006CAE95 /* RKPropertyMapping.h in Headers */,
+				C0AFB056196F8D1500721DAB /* NSString+CMDQueryStringSerialization.h in Headers */,
 				254372A815F54995006E8424 /* RKObjectParameterization.h in Headers */,
 				254372B815F54C3F006E8424 /* RKHTTPRequestOperation.h in Headers */,
 				254372BC15F54C3F006E8424 /* RKObjectManager.h in Headers */,
 				254372C015F54C3F006E8424 /* RKPaginator.h in Headers */,
+				C0AFB04A196F8D1500721DAB /* CMDQueryStringStringTransformer.h in Headers */,
 				254372C415F54C3F006E8424 /* RKObjectRequestOperation.h in Headers */,
 				254372C815F54C3F006E8424 /* RKRequestDescriptor.h in Headers */,
 				254372CC15F54C3F006E8424 /* RKResponseDescriptor.h in Headers */,
@@ -1869,6 +1963,7 @@
 				25F53F391606269400A093BE /* RKObjectRequestOperationSubclass.h in Headers */,
 				25A226D61618A57500952D72 /* RKObjectUtilities.h in Headers */,
 				C0F11CE3190883380054AEA0 /* RKPathMatcher.h in Headers */,
+				C0AFB052196F8D1500721DAB /* CMDQueryStringWriter.h in Headers */,
 				252CCE6617E08E2D00B7F0BF /* RKValueTransformers.h in Headers */,
 				2507C327161BD5C700EA71FF /* RKTestHelpers.h in Headers */,
 				C0F11CE81908C7E60054AEA0 /* RKCoreData.h in Headers */,
@@ -1890,8 +1985,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				25160EE31456532C0060A5C5 /* lcl_RK.h in Headers */,
+				C0AFB041196F8D1500721DAB /* CMDQueryStringReader.h in Headers */,
 				25160EF91456532C0060A5C5 /* LCLNSLog_RK.h in Headers */,
+				C0AFB045196F8D1500721DAB /* CMDQueryStringSerialization-Prefix.pch in Headers */,
 				25160F091456532C0060A5C5 /* SOCKit.h in Headers */,
+				C0AFB039196F8D1500721DAB /* CMDQueryStringDateTransformer.h in Headers */,
+				C0AFB04F196F8D1500721DAB /* CMDQueryStringValueTransformer.h in Headers */,
 				25160F44145655C60060A5C5 /* RKDynamicMapping.h in Headers */,
 				25160F46145655C60060A5C5 /* RKErrorMessage.h in Headers */,
 				25160F4A145655C60060A5C5 /* RKAttributeMapping.h in Headers */,
@@ -1906,6 +2005,7 @@
 				25160F60145655C60060A5C5 /* RKRelationshipMapping.h in Headers */,
 				25160F6F145655D10060A5C5 /* RKEntityMapping.h in Headers */,
 				25160F73145655D10060A5C5 /* RKManagedObjectImporter.h in Headers */,
+				C0AFB047196F8D1500721DAB /* CMDQueryStringSerialization.h in Headers */,
 				25160F75145655D10060A5C5 /* RKManagedObjectStore.h in Headers */,
 				25160F79145655D10060A5C5 /* RKPropertyInspector+CoreData.h in Headers */,
 				25160F85145657650060A5C5 /* lcl_config_components_RK.h in Headers */,
@@ -1939,20 +2039,24 @@
 				258EA4AF15A38E7E007E07A6 /* RKMappingOperationDataSource.h in Headers */,
 				258EA4B315A39090007E07A6 /* RKManagedObjectMappingOperationDataSource.h in Headers */,
 				2597F99D15AF6DC400E547D7 /* RKRelationshipConnectionOperation.h in Headers */,
+				C0AFB035196F8D1500721DAB /* CMDQueryStringArrayTransformer.h in Headers */,
 				25AFF8F215B4CF1F0051877F /* RKMappingErrors.h in Headers */,
 				5CCC295715B7124A0045F0F5 /* RKMacros.h in Headers */,
 				25104F2015C30CD900829135 /* RKSearchWord.h in Headers */,
 				25104F2A15C30D1700829135 /* RKManagedObjectStore+RKSearchAdditions.h in Headers */,
+				C0AFB03D196F8D1500721DAB /* CMDQueryStringNumberTransformer.h in Headers */,
 				25104F3015C30E7400829135 /* RKSearchIndexer.h in Headers */,
 				25104F3615C30EF500829135 /* RKSearchPredicate.h in Headers */,
 				25104F3C15C30F2100829135 /* RKSearchWordEntity.h in Headers */,
 				25F53AE315E7B612008B54E6 /* RKHTTPUtilities.h in Headers */,
 				2598888E15EC169E006CAE95 /* RKPropertyMapping.h in Headers */,
 				254372B915F54C3F006E8424 /* RKHTTPRequestOperation.h in Headers */,
+				C0AFB057196F8D1500721DAB /* NSString+CMDQueryStringSerialization.h in Headers */,
 				254372BD15F54C3F006E8424 /* RKObjectManager.h in Headers */,
 				254372C115F54C3F006E8424 /* RKPaginator.h in Headers */,
 				254372C515F54C3F006E8424 /* RKObjectRequestOperation.h in Headers */,
 				254372C915F54C3F006E8424 /* RKRequestDescriptor.h in Headers */,
+				C0AFB04B196F8D1500721DAB /* CMDQueryStringStringTransformer.h in Headers */,
 				254372CD15F54C3F006E8424 /* RKResponseDescriptor.h in Headers */,
 				254372D115F54C3F006E8424 /* RKResponseMapperOperation.h in Headers */,
 				254372D715F54CE3006E8424 /* RKManagedObjectRequestOperation.h in Headers */,
@@ -1981,6 +2085,7 @@
 				2507C328161BD5C700EA71FF /* RKTestHelpers.h in Headers */,
 				25E88C89165C5CC30042ABD0 /* RKConnectionDescription.h in Headers */,
 				252CCE6717E08E2D00B7F0BF /* RKValueTransformers.h in Headers */,
+				C0AFB053196F8D1500721DAB /* CMDQueryStringWriter.h in Headers */,
 				C0F11CE5190883460054AEA0 /* RKPathMatcher.h in Headers */,
 				255893E3166BA6A20010C70B /* RKObjectParameterization.h in Headers */,
 				255893E4166BA7400010C70B /* RestKit-Prefix.pch in Headers */,
@@ -2279,6 +2384,7 @@
 				25160E1B145650490060A5C5 /* RKObjectMapping.m in Sources */,
 				25160E1E145650490060A5C5 /* RKMappingOperation.m in Sources */,
 				25160E22145650490060A5C5 /* RKMappingResult.m in Sources */,
+				C0AFB058196F8D1500721DAB /* NSString+CMDQueryStringSerialization.m in Sources */,
 				252CCE7817E0CA2700B7F0BF /* RKISO8601DateFormatter.m in Sources */,
 				25160E24145650490060A5C5 /* RKPropertyInspector.m in Sources */,
 				25160E26145650490060A5C5 /* RKRelationshipMapping.m in Sources */,
@@ -2295,17 +2401,21 @@
 				25CA7A8F14EC570200888FF8 /* RKMapping.m in Sources */,
 				25055B8614EEF32A00B9C4DD /* RKMappingTest.m in Sources */,
 				25055B8A14EEF32A00B9C4DD /* RKTestFactory.m in Sources */,
+				C0AFB048196F8D1500721DAB /* CMDQueryStringSerialization.m in Sources */,
 				25055B9114EEF40000B9C4DD /* RKPropertyMappingTestExpectation.m in Sources */,
+				C0AFB03A196F8D1500721DAB /* CMDQueryStringDateTransformer.m in Sources */,
 				25EC1A3B14F72B1300C3CF3F /* RKFetchRequestManagedObjectCache.m in Sources */,
 				25EC1A3F14F72B3100C3CF3F /* RKInMemoryManagedObjectCache.m in Sources */,
 				257ABAB215112DD500CCAA76 /* NSManagedObjectContext+RKAdditions.m in Sources */,
 				257ABAB81511371E00CCAA76 /* NSManagedObject+RKAdditions.m in Sources */,
 				25C954A715542A47005C9E08 /* RKTestConstants.m in Sources */,
+				C0AFB042196F8D1500721DAB /* CMDQueryStringReader.m in Sources */,
 				259D98561550C69A008C90F5 /* RKEntityByAttributeCache.m in Sources */,
 				259D9860155218E5008C90F5 /* RKEntityCache.m in Sources */,
 				252028FE1577AE0B00076FB4 /* RKRouteSet.m in Sources */,
 				252029051577AE1800076FB4 /* RKRoute.m in Sources */,
 				25FBB854159272DD00955D27 /* RKRouter.m in Sources */,
+				C0AFB04C196F8D1500721DAB /* CMDQueryStringStringTransformer.m in Sources */,
 				258EA4AA15A38BC0007E07A6 /* RKObjectMappingOperationDataSource.m in Sources */,
 				25AA23D015AF2920006EF62D /* RKManagedObjectMappingOperationDataSource.m in Sources */,
 				2597F99E15AF6DC400E547D7 /* RKRelationshipConnectionOperation.m in Sources */,
@@ -2324,6 +2434,7 @@
 				254372CA15F54C3F006E8424 /* RKRequestDescriptor.m in Sources */,
 				C0F11CE4190883380054AEA0 /* RKPathMatcher.m in Sources */,
 				254372CE15F54C3F006E8424 /* RKResponseDescriptor.m in Sources */,
+				C0AFB036196F8D1500721DAB /* CMDQueryStringArrayTransformer.m in Sources */,
 				254372D215F54C3F006E8424 /* RKResponseMapperOperation.m in Sources */,
 				254372D815F54CE3006E8424 /* RKManagedObjectRequestOperation.m in Sources */,
 				2595B47115F670530087A59B /* RKMIMETypeSerialization.m in Sources */,
@@ -2331,6 +2442,7 @@
 				252CCE6817E08E2D00B7F0BF /* RKValueTransformers.m in Sources */,
 				253477F315FFBC61002C0E4E /* RKDictionaryUtilities.m in Sources */,
 				2534781615FFD4A6002C0E4E /* RKURLEncodedSerialization.m in Sources */,
+				C0AFB03E196F8D1500721DAB /* CMDQueryStringNumberTransformer.m in Sources */,
 				259B96D71604CCCC0000C250 /* AFHTTPClient.m in Sources */,
 				259B96DB1604CCCC0000C250 /* AFHTTPRequestOperation.m in Sources */,
 				259B96DF1604CCCC0000C250 /* AFImageRequestOperation.m in Sources */,
@@ -2340,10 +2452,12 @@
 				259B96ED1604CCCC0000C250 /* AFURLConnectionOperation.m in Sources */,
 				259B96F11604CCCC0000C250 /* AFXMLRequestOperation.m in Sources */,
 				259B96F31604CCCC0000C250 /* UIImageView+AFNetworking.m in Sources */,
+				C0AFB054196F8D1500721DAB /* CMDQueryStringWriter.m in Sources */,
 				25A226D81618A57500952D72 /* RKObjectUtilities.m in Sources */,
 				2507C329161BD5C700EA71FF /* RKTestHelpers.m in Sources */,
 				25E88C8A165C5CC30042ABD0 /* RKConnectionDescription.m in Sources */,
 				25A8C2361673BD480014D9A6 /* RKConnectionTestExpectation.m in Sources */,
+				C0AFB050196F8D1500721DAB /* CMDQueryStringValueTransformer.m in Sources */,
 				258BEA02168D058300C74C8C /* RKObjectMappingMatcher.m in Sources */,
 				25A199D616ED035A00792629 /* RKBenchmark.m in Sources */,
 				25C6C0BF1716F6F800C98A73 /* TKEvent.m in Sources */,
@@ -2440,6 +2554,7 @@
 				25160F5D145655C60060A5C5 /* RKMappingResult.m in Sources */,
 				25160F5F145655C60060A5C5 /* RKPropertyInspector.m in Sources */,
 				25160F61145655C60060A5C5 /* RKRelationshipMapping.m in Sources */,
+				C0AFB059196F8D1500721DAB /* NSString+CMDQueryStringSerialization.m in Sources */,
 				252CCE7917E0CA2700B7F0BF /* RKISO8601DateFormatter.m in Sources */,
 				25160F70145655D10060A5C5 /* RKEntityMapping.m in Sources */,
 				25160F74145655D10060A5C5 /* RKManagedObjectImporter.m in Sources */,
@@ -2456,17 +2571,21 @@
 				25CA7A9114EC5C2D00888FF8 /* RKTestFixture.m in Sources */,
 				25055B8714EEF32A00B9C4DD /* RKMappingTest.m in Sources */,
 				25055B8B14EEF32A00B9C4DD /* RKTestFactory.m in Sources */,
+				C0AFB049196F8D1500721DAB /* CMDQueryStringSerialization.m in Sources */,
 				25055B9214EEF40000B9C4DD /* RKPropertyMappingTestExpectation.m in Sources */,
+				C0AFB03B196F8D1500721DAB /* CMDQueryStringDateTransformer.m in Sources */,
 				25EC1A3C14F72B1400C3CF3F /* RKFetchRequestManagedObjectCache.m in Sources */,
 				25EC1A4014F72B3300C3CF3F /* RKInMemoryManagedObjectCache.m in Sources */,
 				257ABAB315112DD500CCAA76 /* NSManagedObjectContext+RKAdditions.m in Sources */,
 				257ABAB91511371E00CCAA76 /* NSManagedObject+RKAdditions.m in Sources */,
 				25C954A815542A47005C9E08 /* RKTestConstants.m in Sources */,
+				C0AFB043196F8D1500721DAB /* CMDQueryStringReader.m in Sources */,
 				259D98571550C69A008C90F5 /* RKEntityByAttributeCache.m in Sources */,
 				259D9861155218E5008C90F5 /* RKEntityCache.m in Sources */,
 				252028FF1577AE0B00076FB4 /* RKRouteSet.m in Sources */,
 				252029061577AE1800076FB4 /* RKRoute.m in Sources */,
 				25FBB855159272DD00955D27 /* RKRouter.m in Sources */,
+				C0AFB04D196F8D1500721DAB /* CMDQueryStringStringTransformer.m in Sources */,
 				258EA4AB15A38BC0007E07A6 /* RKObjectMappingOperationDataSource.m in Sources */,
 				25AA23D115AF2920006EF62D /* RKManagedObjectMappingOperationDataSource.m in Sources */,
 				2597F99F15AF6DC400E547D7 /* RKRelationshipConnectionOperation.m in Sources */,
@@ -2485,6 +2604,7 @@
 				254372CF15F54C3F006E8424 /* RKResponseDescriptor.m in Sources */,
 				C0F11CE6190883460054AEA0 /* RKPathMatcher.m in Sources */,
 				254372D315F54C3F006E8424 /* RKResponseMapperOperation.m in Sources */,
+				C0AFB037196F8D1500721DAB /* CMDQueryStringArrayTransformer.m in Sources */,
 				254372D915F54CE3006E8424 /* RKManagedObjectRequestOperation.m in Sources */,
 				2595B47215F670530087A59B /* RKMIMETypeSerialization.m in Sources */,
 				2595B47615F670530087A59B /* RKNSJSONSerialization.m in Sources */,
@@ -2492,6 +2612,7 @@
 				252CCE6917E08E2D00B7F0BF /* RKValueTransformers.m in Sources */,
 				2534781715FFD4A6002C0E4E /* RKURLEncodedSerialization.m in Sources */,
 				259B96D81604CCCC0000C250 /* AFHTTPClient.m in Sources */,
+				C0AFB03F196F8D1500721DAB /* CMDQueryStringNumberTransformer.m in Sources */,
 				259B96DC1604CCCC0000C250 /* AFHTTPRequestOperation.m in Sources */,
 				259B96E01604CCCC0000C250 /* AFImageRequestOperation.m in Sources */,
 				259B96E41604CCCC0000C250 /* AFJSONRequestOperation.m in Sources */,
@@ -2501,10 +2622,12 @@
 				259B96F21604CCCC0000C250 /* AFXMLRequestOperation.m in Sources */,
 				259B96F41604CCCC0000C250 /* UIImageView+AFNetworking.m in Sources */,
 				25E9C8F1161290D500647F84 /* RKObjectParameterization.m in Sources */,
+				C0AFB055196F8D1500721DAB /* CMDQueryStringWriter.m in Sources */,
 				25A226D91618A57500952D72 /* RKObjectUtilities.m in Sources */,
 				2507C32A161BD5C700EA71FF /* RKTestHelpers.m in Sources */,
 				25E88C8B165C5CC30042ABD0 /* RKConnectionDescription.m in Sources */,
 				25A8C2371673BD480014D9A6 /* RKConnectionTestExpectation.m in Sources */,
+				C0AFB051196F8D1500721DAB /* CMDQueryStringValueTransformer.m in Sources */,
 				258BEA03168D058300C74C8C /* RKObjectMappingMatcher.m in Sources */,
 				25A199D716ED035A00792629 /* RKBenchmark.m in Sources */,
 				25C6C0C01716F6F800C98A73 /* TKEvent.m in Sources */,
